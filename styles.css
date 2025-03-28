@@ -19,7 +19,7 @@ body {
 
 /* ---------- Navbar ---------- */
 .navbar {
-  background-color: #151e3f;
+  background-color: #0b1c3a; /* Dark navy */
   color: #fff;
   padding: 1rem 0;
 }
@@ -38,6 +38,7 @@ body {
 .brand-logo {
   height: 40px;
   margin-right: 0.5rem;
+  /* If the logo isn't displaying, confirm the path (images/logo.png) and file name/case. */
 }
 
 .brand h1 {
@@ -53,13 +54,13 @@ body {
 }
 
 .nav-links a:hover {
-  color: #d3d3d3;
+  color: #c2c2c2;
 }
 
 /* ---------- Hero Section ---------- */
 .hero-section {
-  /* Gradient background for hero */
-  background: linear-gradient(135deg, #ff8a00 0%, #e52e71 100%);
+  /* Vibrant, interactive gradient background */
+  background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
   color: #fff;
   padding: 4rem 0;
   text-align: center;
@@ -78,8 +79,8 @@ body {
 }
 
 .hero-button {
-  background-color: #fff;
-  color: #e52e71;
+  background-color: #ffcc00;
+  color: #0072ff;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
   text-decoration: none;
@@ -88,12 +89,12 @@ body {
 }
 
 .hero-button:hover {
-  background-color: #eee;
+  background-color: #ffe066;
 }
 
 /* ---------- Program Block ---------- */
 .program-block {
-  background-color: #fefefe;
+  background-color: #ffffff;
   padding: 3rem 0;
   text-align: center;
 }
@@ -105,7 +106,7 @@ body {
 
 .program-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -131,7 +132,7 @@ body {
 
 .solutions-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -145,7 +146,7 @@ body {
 
 /* ---------- Features Block ---------- */
 .features-block {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 3rem 0;
   text-align: center;
 }
@@ -201,7 +202,7 @@ body {
 
 /* ---------- Contact Block ---------- */
 .contact-block {
-  background-color: #fefefe;
+  background-color: #ffffff;
   padding: 3rem 0;
   text-align: center;
 }
@@ -212,7 +213,7 @@ body {
 }
 
 .contact-button {
-  background-color: #151e3f;
+  background-color: #0072ff;
   color: #fff;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
@@ -222,12 +223,12 @@ body {
 }
 
 .contact-button:hover {
-  background-color: #2a3254;
+  background-color: #3393ff;
 }
 
 /* ---------- Footer ---------- */
 .footer {
-  background-color: #1f2a4f;
+  background-color: #0b1c3a;
   color: #fff;
   padding: 1rem 0;
 }
