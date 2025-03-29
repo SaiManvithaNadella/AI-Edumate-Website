@@ -8,7 +8,7 @@ This static website introduces AI‑Edumate’s mission, features, and services,
 
 ## 🚀 Live Demo
 
-🌍 [Visit the Live Site]((https://saimanvithanadella.github.io/AI-Edumate-Website/#contact))  
+ 🌍 [Visit the Live Site](https://saimanvithanadella.github.io/AI-Edumate-Website/#programs) 
 *(Replace with your actual GitHub Pages URL after deployment)*
 
 ---
