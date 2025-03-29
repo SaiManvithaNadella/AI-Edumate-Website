@@ -19,7 +19,7 @@ body {
 
 /* ---------- Navbar ---------- */
 .navbar {
-  background-color: #0b1c3a; /* Dark navy */
+  background-color: #151e3f;
   color: #fff;
   padding: 1rem 0;
 }
@@ -38,7 +38,6 @@ body {
 .brand-logo {
   height: 40px;
   margin-right: 0.5rem;
-  /* If the logo isn't displaying, confirm the path (images/logo.png) and file name/case. */
 }
 
 .brand h1 {
@@ -54,13 +53,13 @@ body {
 }
 
 .nav-links a:hover {
-  color: #c2c2c2;
+  color: #d3d3d3;
 }
 
 /* ---------- Hero Section ---------- */
 .hero-section {
-  /* Vibrant, interactive gradient background */
-  background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+  /* Gradient background for hero */
+  background: linear-gradient(135deg, #ff8a00 0%, #e52e71 100%);
   color: #fff;
   padding: 4rem 0;
   text-align: center;
@@ -79,8 +78,8 @@ body {
 }
 
 .hero-button {
-  background-color: #ffcc00;
-  color: #0072ff;
+  background-color: #fff;
+  color: #e52e71;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
   text-decoration: none;
@@ -89,12 +88,12 @@ body {
 }
 
 .hero-button:hover {
-  background-color: #ffe066;
+  background-color: #eee;
 }
 
 /* ---------- Program Block ---------- */
 .program-block {
-  background-color: #ffffff;
+  background-color: #fefefe;
   padding: 3rem 0;
   text-align: center;
 }
@@ -106,7 +105,7 @@ body {
 
 .program-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -132,7 +131,7 @@ body {
 
 .solutions-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -146,7 +145,7 @@ body {
 
 /* ---------- Features Block ---------- */
 .features-block {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 3rem 0;
   text-align: center;
 }
@@ -187,6 +186,7 @@ body {
   background-color: #fafafa;
   padding: 3rem 0;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .about-block h2 {
@@ -202,9 +202,11 @@ body {
 
 /* ---------- Contact Block ---------- */
 .contact-block {
-  background-color: #ffffff;
+  background-color: #fefefe;
   padding: 3rem 0;
   text-align: center;
+  margin-top: 2rem;
+
 }
 
 .contact-block h2 {
@@ -213,7 +215,7 @@ body {
 }
 
 .contact-button {
-  background-color: #0072ff;
+  background-color: #151e3f;
   color: #fff;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
@@ -223,12 +225,12 @@ body {
 }
 
 .contact-button:hover {
-  background-color: #3393ff;
+  background-color: #2a3254;
 }
 
 /* ---------- Footer ---------- */
 .footer {
-  background-color: #0b1c3a;
+  background-color: #1f2a4f;
   color: #fff;
   padding: 1rem 0;
 }
