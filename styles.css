@@ -200,13 +200,11 @@ body {
   line-height: 1.6;
 }
 
-/* ---------- Contact Block ---------- */
+/* Contact Us Section */
 .contact-block {
-  background-color: #fefefe;
+  background-color: #fafafa;
   padding: 3rem 0;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 .contact-block h2 {
@@ -214,20 +212,43 @@ body {
   margin-bottom: 1rem;
 }
 
+.contact-block p {
+  max-width: 700px;
+  margin: 0 auto 1.5rem auto;
+  line-height: 1.6;
+}
+
+/* Email Section */
+.email-block {
+  background-color: #ffffff;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.email-block h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.email-block p {
+  max-width: 700px;
+  margin: 0 auto 1.5rem auto;
+  line-height: 1.6;
+}
+
+/* The Email Us button */
 .contact-button {
-  background-color: #151e3f;
+  background-color: #0072ff;
   color: #fff;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
   text-decoration: none;
   font-weight: bold;
   transition: background 0.3s ease;
-  margin-top: 10rem;
-
 }
 
 .contact-button:hover {
-  background-color: #2a3254;
+  background-color: #3393ff;
 }
 
 /* ---------- Footer ---------- */
