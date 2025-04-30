@@ -58,7 +58,6 @@ body {
 
 /* ---------- Hero Section ---------- */
 .hero-section {
-  /* Gradient background for hero */
   background: linear-gradient(135deg, #ff8a00 0%, #e52e71 100%);
   color: #fff;
   padding: 4rem 0;
@@ -89,32 +88,6 @@ body {
 
 .hero-button:hover {
   background-color: #eee;
-}
-
-/* ---------- Program Block ---------- */
-.program-block {
-  background-color: #fefefe;
-  padding: 3rem 0;
-  text-align: center;
-}
-
-.program-block h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.program-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.program-card {
-  background-color: #fafafa;
-  padding: 1.5rem;
-  border-radius: 8px;
-  border: 2px solid #e2e2e2;
 }
 
 /* ---------- Solutions Block ---------- */
@@ -164,21 +137,45 @@ body {
 
 .feature-card {
   background-color: #fefefe;
-  padding: 1.5rem;
-  border-radius: 8px;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
   border: 2px solid #e2e2e2;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
+  text-align: center;
 }
 
 .feature-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 1rem auto;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .feature-icon img {
-  width: 80px;
-  margin-bottom: 0.5rem;
+  width: 100%;
+  height: auto;
+}
+
+/* ---------- Demo Video Section ---------- */
+.demo-video {
+  max-width: 900px;
+  margin-top: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ---------- About Block ---------- */
@@ -200,7 +197,7 @@ body {
   line-height: 1.6;
 }
 
-/* Contact Us Section */
+/* ---------- Contact Block ---------- */
 .contact-block {
   background-color: #fafafa;
   padding: 3rem 0;
@@ -218,25 +215,6 @@ body {
   line-height: 1.6;
 }
 
-/* Email Section */
-.email-block {
-  background-color: #ffffff;
-  padding: 3rem 0;
-  text-align: center;
-}
-
-.email-block h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-}
-
-.email-block p {
-  max-width: 700px;
-  margin: 0 auto 1.5rem auto;
-  line-height: 1.6;
-}
-
-/* The Email Us button */
 .contact-button {
   background-color: #0072ff;
   color: #fff;
